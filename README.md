@@ -60,3 +60,7 @@ Herencia: Nos permite crear nuevas clases a partir de otras, una vez que detecte
 Se basa en casos de la vida real.
 
 > 💡 Cuando detecto características y comportamientos iguales, entonces significa que debo realizar una abstracción.
+
+Al crear herencia todas las clases (**SUBCLASES**) heredan de la clase padre (**SUPERCLASE**) sus propiedades y comportamientos.
+
+
