@@ -52,3 +52,11 @@ Se lo puede plasmar en UML :
 * Comportamiento, que serán las operaciones de la clase.
 
 <img src="https://static.platzi.com/media/user_upload/Ejemplo-Clases-Distintos-Lenguajes-41672a36-5465-4bc5-94d6-b53419e3a411.jpg" />
+
+## HERENCIA
+> 💡 **Don’t repeat yourself** es una filosofía que promueve la reducción de duplicación en programación, esto nos va a inculcar que no tengamos líneas de código duplicadas. Toda pieza de información nunca debería ser duplicada debido a que incrementa la dificultad en los cambios y evolución.
+
+Herencia: Nos permite crear nuevas clases a partir de otras, una vez que detectemos elementos duplicados empezaremos a ejecutar un analisis, **una ABSTRACCIÒN**, de tal manera que generaremos una clase mas general que nos permita generar mas clases.
+Se basa en casos de la vida real.
+
+> 💡 Cuando detecto características y comportamientos iguales, entonces significa que debo realizar una abstracción.
