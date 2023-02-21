@@ -63,4 +63,5 @@ Se basa en casos de la vida real.
 
 Al crear herencia todas las clases (**SUBCLASES**) heredan de la clase padre (**SUPERCLASE**) sus propiedades y comportamientos.
 
+<img src="https://i.imgur.com/r0oFHTr.png"/>
 
