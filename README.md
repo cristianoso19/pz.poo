@@ -65,3 +65,38 @@ Al crear herencia todas las clases (**SUBCLASES**) heredan de la clase padre (**
 
 <img src="https://i.imgur.com/r0oFHTr.png"/>
 
+## OBJETOS, METODO CONSTRUCTOR Y SU SINTAXIS EN CÓDIGO
+
+Objetos es una instancia de una clase, es el resultado del modelado, las usaremos para que estas clases cobren vida
+
+```
+#JAVA
+Person person = new Person();
+
+#JavaScript
+var person = new Person();
+
+#Python
+person = Person()
+
+#person = new Person();
+```
+Metodo constructor: da un estado inicial a un objeto, cuando lo creamos obtiene un estado inicial.
+Los atributos que pasemos a traves del metodo consturctor seran los datos minimos para que el objeto pueda vivir.
+
+<img src="https://static.platzi.com/media/user_upload/58-5f06fef2-f1d2-401c-89e9-b5f1aa9637a2.jpg">
+
+Con lo que vimos en el punto anterior ahora las clases necesitan que se les pasen los atributos minimos.
+
+```
+#JAVA
+Person person = new Person("Ann");
+
+#JavaScript
+var person = new Person("Ann");
+
+#Python
+person = Person("Ann")
+
+#person = new Person("Ann");
+```
