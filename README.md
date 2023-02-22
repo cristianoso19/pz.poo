@@ -100,3 +100,9 @@ person = Person("Ann")
 
 #person = new Person("Ann");
 ```
+
+## Herencia Aplicada en lenguajes de programaciòn
+
+Varia de lenguaje en lenguaje, por ejemplo en java y php usa la palabra reservada `extends`.
+En javascript maneja la herencia toma la subclase y la instancia como una superclase: `student.prototype = new Person()`
+En python se usa un parametro dentro de una clase `class Student(Person):`
