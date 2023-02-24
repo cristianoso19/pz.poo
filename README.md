@@ -106,3 +106,23 @@ person = Person("Ann")
 Varia de lenguaje en lenguaje, por ejemplo en java y php usa la palabra reservada `extends`.
 En javascript maneja la herencia toma la subclase y la instancia como una superclase: `student.prototype = new Person()`
 En python se usa un parametro dentro de una clase `class Student(Person):`
+
+## Encapsulamiento
+Hacer que un dato sea inalterable cuando se le asigne un modificador de acceso ("Esconder")
+podemos usar los modificadores de acceso
+
+```
+public: Accedido por cualquier elemento o clase
+protected: Accedido a nivel de la clase, de los paquetes de la clase y subclases
+default: Accedido por clases internas y paquetes, en la herencia no se puede acceder a default
+private: Solo Accedido a nivel de clases, estara invisible para todo el mundo y puede ser modificado solo por la clase
+
+```
+
+<img src="https://static.platzi.com/media/user_upload/encapsulamiento-Modificadores%20de%20acceso-69d34fb4-21e0-405d-a572-712db3ea171c.jpg" />
+
+> 💡Símbolos de encapsulamiento para diagramas UML
+private " - "
+public " + "
+protected " # "
+default " ~ " 
